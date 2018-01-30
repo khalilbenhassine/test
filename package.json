@@ -1,0 +1,27 @@
+{
+  "name": "khalilproject",
+  "version": "1.0.0",
+  "description": "meansstack application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "khalil"
+  ],
+  "author": "khalil ben hassine",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "get-json": "^1.0.0",
+    "git": "^0.1.5",
+    "helmet": "^3.10.0",
+    "mongoose": "^4.13.7",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}
