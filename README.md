@@ -20,18 +20,47 @@
 >Ajout d'une fonctionnalité supplémentaire au choix (libre)
 
 ## Les technologies utilisées  ##
--------------
 
-- NodeJs : est une plateforme logicielle libre et événementielle en JavaScript 
-- MongoDB : est un système de gestion de base de données orientée documents
+
+- NodeJs : une plateforme logicielle libre et événementielle en JavaScript .
+- MongoDB : un système de gestion de base de données orientée documents.
+- Advanced REST client : Nous permet de consommer le web service. 
 - Robomongo : Offre une interface graphique à tous ceux qui travaillent avec les bases de données MongoDB. 
 - Outils de ligne de commande
 
 ## Installation  ##
--------------
+
 
 - [MongoDb](https://docs.mongodb.com/manual/installation/)
 - [NodeJs](https://nodejs.org/en/download/)
 - [Robomongo](https://robomongo.org/)
+- [Advanced REST client](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
+
+
+## Lancement ##
+
+
+```bash
+
+# Start MongoDB Server 
+mongod
+
+# Get the latest snapshot
+git clone --depth=1 https://github.com/khalilbenhassine/test.git
+
+# Change directory of project
+cd test
+
+# Install NPM dependencies
+npm install
+
+# Then simply start your app
+nodemon server.js ou server.js
+```
+
+**Note:** Je recommande fortement d'installer Nodemon . Il surveille tout changement dans votre application node.js et redémarre automatiquement le serveur. 
+
+
+
 
 
