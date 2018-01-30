@@ -18,3 +18,20 @@
 - eventsByMinute: Afficher les statistiques d'évenement par minute
 
 >Ajout d'une fonctionnalité supplémentaire au choix (libre)
+
+## Les technologies utilisées  ##
+-------------
+
+- NodeJs : est une plateforme logicielle libre et événementielle en JavaScript 
+- MongoDB : est un système de gestion de base de données orientée documents
+- Robomongo : Offre une interface graphique à tous ceux qui travaillent avec les bases de données MongoDB. 
+- Outils de ligne de commande
+
+## Installation  ##
+-------------
+
+- [MongoDb](https://docs.mongodb.com/manual/installation/)
+- [NodeJs](https://nodejs.org/en/download/)
+- [Robomongo](https://robomongo.org/)
+
+
