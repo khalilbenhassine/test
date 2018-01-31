@@ -1,4 +1,4 @@
- ## Sujet de test ##
+ ## Sujet du test ##
 
 
 > Réalisation d'une API REST (framework nodeJS ou PHP) avec 4 endpoints :
